@@ -1,15 +1,10 @@
 package com.SIXTIC.SIXTIC;
-
-import java.util.Scanner;
-
-
 public class Empresa {
 
     /*PARAMETROS*/
     public String nombreEmpresa,direccionEmpresa,telefonoEmpresa, NIT;
 
     /*CONSTRUCTOR*/
-
     public Empresa(String nombreEmpresa, String direccionEmpresa, String telefonoEmpresa, String NIT) {
         this.nombreEmpresa = nombreEmpresa;
         this.direccionEmpresa = direccionEmpresa;

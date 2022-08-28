@@ -1,5 +1,4 @@
 package com.SIXTIC.SIXTIC;
-
 public class MDinero {
 
     /*PARAMETROS*/
@@ -50,7 +49,7 @@ public class MDinero {
     /*METODO*/
     public boolean tipoConceptoPositivo() {
         if (montoMovimiento > 0) {
-            System.out.print("Concepto de movimiento: Consignacion");
+            System.out.print("Concepto del movimiento: Consignacion");
             return true;
         }
     else{
@@ -59,7 +58,7 @@ public class MDinero {
     }
     public boolean tipoConceptoNegativo(){
         if(montoMovimiento < 0){
-            System.out.print("Concepto de movimiento: Retiro");
+            System.out.print("Concepto del movimiento: Retiro");
             return true;
         }
         else {

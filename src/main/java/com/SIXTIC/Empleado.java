@@ -1,7 +1,4 @@
 package com.SIXTIC.SIXTIC;
-
-import java.util.Scanner;
-
 public class Empleado {
 
     /*PARAMETROS*/
